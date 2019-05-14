@@ -1,6 +1,6 @@
 with "../../boards/stm32f769_discovery/stm32f769_discovery_full.gpr";
 
-project Blinky_F769Disco extends "../shared/common/common.gpr" is
+project Blinky_STM32F769Disco extends "../shared/common/common.gpr" is
 
   for Runtime ("Ada") use STM32F769_Discovery_Full'Runtime("Ada");
   for Target use "arm-eabi";
@@ -12,4 +12,4 @@ project Blinky_F769Disco extends "../shared/common/common.gpr" is
 
   package Compiler renames STM32F769_Discovery_Full.Compiler;
 
-end Blinky_F769Disco;
+end Blinky_STM32F769Disco;
