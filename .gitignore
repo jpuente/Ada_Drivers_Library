@@ -12,6 +12,7 @@
 *.stdout
 *~
 *.pyc
+*.bak
 obj/
 lib/
 
